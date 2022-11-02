@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Music Player</string>
+    <string name="no_files_found">NO MUSIC FILES</string>
+    <string name="no_playlists_found">NO PLAYLISTS</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">version 1.1</string>
+    <string name="add_in_playlist">Add in playlist</string>
+    <string name="delete_from_playlist">Delete from playlist</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="main_menu">Menu</string>
+    <string name="sort_title">Sort by title</string>
+    <string name="sort_artist">Sort by artist</string>
+    <string name="sort_album">Sort by album</string>
+    <string name="all_music">Play all music</string>
+    <string name="manage_playlists">Manage playlists</string>
+    <string name="playlists">Playlists</string>
+    <string name="add_playlist">Add playlist…</string>
+    <string name="new_playlist">New playlist</string>
+    <string name="message_ok">OK</string>
+    <string name="message_cancel">Cancel</string>
+    <string name="message_warning">Warning</string>
+    <string name="message_error">Error</string>
+    <string name="message_playlist">Choose playlist</string>
+    <string name="message_add_title">Add playlist</string>
+    <string name="message_edit_title">Edit playlist</string>
+    <string name="message_sure_delete">Are you sure you want to delete selected items?</string>
+    <string name="message_sure_restart">Are you sure you want to restart equalizer settings?</string>
+    <string name="eq">Settings</string>
+</resources>

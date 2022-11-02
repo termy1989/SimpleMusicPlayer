@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_equalizer"
+        android:icon="@drawable/ic_baseline_equalizer_24"
+        android:orderInCategory="200"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_baseline_sort_24"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/sort_title"
+                android:title="@string/sort_title"
+                android:orderInCategory="109"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/sort_artist"
+                android:title="@string/sort_artist"
+                android:orderInCategory="110"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/sort_album"
+                android:title="@string/sort_album"
+                android:orderInCategory="110"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
