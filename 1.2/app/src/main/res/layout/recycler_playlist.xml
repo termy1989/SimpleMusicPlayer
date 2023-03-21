@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right|center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    tools:ignore="RtlHardcoded">
+
+
+    <ImageView
+        android:id="@+id/playlist_icon_view"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="40dp"
+        app:srcCompat="@drawable/ic_baseline_music_note_24"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/playlist_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:textColor="@color/black"
+        tools:ignore="RelativeOverlap,RtlSymmetry"
+        tools:text="Server" />
+
+    <CheckBox
+        android:id="@+id/playlist_check_box"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen.playlists.PlayListsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.SimpleMusicPlayer.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_playlists"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.SimpleMusicPlayer.PopupOverlay"
+            app:title="@string/playlists" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_playlists" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="32dp"
+        app:backgroundTint="@android:color/holo_red_dark"
+        app:srcCompat="@drawable/ic_button_delete"
+        tools:ignore="ContentDescription,OnClick,UsingOnClickInXml" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="32dp"
+        app:backgroundTint="@android:color/holo_green_light"
+        app:srcCompat="@drawable/ic_button_add"
+        tools:ignore="ContentDescription,OnClick,UsingOnClickInXml" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

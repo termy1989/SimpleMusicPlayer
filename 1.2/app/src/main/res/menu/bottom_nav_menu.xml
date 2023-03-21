@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_add_music"
+        android:icon="@drawable/ic_baseline_music_add_24"
+        android:title="@string/add_in_playlist" />
+
+    <item
+        android:id="@+id/navigation_del_music"
+        android:icon="@drawable/ic_baseline_music_del_24"
+        android:title="@string/delete_from_playlist" />
+
+</menu>
